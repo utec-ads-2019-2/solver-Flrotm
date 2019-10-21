@@ -6,7 +6,9 @@ using namespace std;
 int main(){
     Tree<string> ex;
 
-    auto resultado=ex.Resolver("54+7-9");
+    string equation;
+    cin >> equation;
+    auto resultado=ex.Resolver(equation);
 
     cout<<"Resultado:"<<resultado<<endl;
 

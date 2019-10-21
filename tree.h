@@ -140,6 +140,6 @@ public:
     }
 
 
-
+    // Falta liberar la memoria (destructor)
 };
 
